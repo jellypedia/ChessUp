@@ -18,7 +18,7 @@ export default function Player({ image, elo, title, name }: PlayerProps) {
             {title}
           </div>
           <div className="font-bold">{name}</div>
-          <div className="text-xs text-gray-900 mx-1">({elo})</div>
+          <div className="text-xs text-white mx-1">({elo})</div>
         </div>
       </div>
     </div>
